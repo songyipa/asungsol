@@ -378,7 +378,7 @@ select::-ms-expand {
     margin-bottom: 30px;
     border-radius: 20px;
     padding: 25px;
-         background: #F8F8F8 url(box-icon3.png) calc(100% - -5px) center no-repeat;
+    background: #F8F8F8 url(box-icon3.png) calc(100% - -5px) center no-repeat;
     background-size: 190px;
 }
 
@@ -388,7 +388,7 @@ select::-ms-expand {
     margin-bottom: 30px;
     border-radius: 20px;
     padding: 25px;
-         background: #F8F8F8 url(box-icon2.png) calc(100% - 0px) center no-repeat;
+    background: #F8F8F8 url(box-icon2.png) calc(100% - 0px) center no-repeat;
     background-size: 190px;
 }
 
@@ -397,16 +397,20 @@ select::-ms-expand {
     line-height: 28px;
     color: #606060;
     padding-top: 45px;
+    font-weight: 500;
 }
 
 
 .clear1 {
     clear: both;
 }
-
-.t99{
-    font-size: 14px;
-    line-height: 20px;
+.text_in{
+    width: 80%;
+    padding-top: 20px;
+}
+.t99 {
+    font-size: 16px;
+    line-height: 24px;
     color: #8d8d8d;
 }
 
@@ -419,42 +423,47 @@ select::-ms-expand {
         background-position: right -10px top 0px;
         background-size: 290px;
     }
-    .box_bar{
+
+    .box_bar {
         float: left;
-        width: 4%;height: 400px;
+        width: 4%;
+        height: 400px;
     }
-.box {
-    height: 350px;
-    width: 48%;
-    margin-bottom: 30px;
-    border-radius: 20px;
-    padding: 35px;
-         background: #F8F8F8 url(box-icon3.png) calc(100% - -5px) bottom no-repeat;
-    background-size: 240px;
-    float: left;
-}
+
+    .box {
+        height: 350px;
+        width: 48%;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        padding: 35px;
+        background: #F8F8F8 url(box-icon3.png) calc(100% - -5px) bottom no-repeat;
+        background-size: 240px;
+        float: left;
+    }
+
     .box2 {
-    height: 350px;
-    width: 48%;
-    margin-bottom: 30px;
-    border-radius: 20px;
-    padding: 35px;
-         background: #F8F8F8 url(box-icon2.png) calc(100% - 0px) bottom no-repeat;
-    background-size: 240px;
-         float: left;
-}
-    
+        height: 350px;
+        width: 48%;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        padding: 35px;
+        background: #F8F8F8 url(box-icon2.png) calc(100% - 0px) bottom no-repeat;
+        background-size: 240px;
+        float: left;
+    }
+
     .t66 {
-    font-size: 22px;
-    line-height: 32px;
-    color: #606060;
-padding-top: 0;
-}
-    
-    .t99{
-            font-size: 16px;
-    line-height: 24px;
-    color: #8d8d8d;
+        font-size: 22px;
+        line-height: 32px;
+        color: #606060;
+        padding-top: 0;
+        font-weight: 500;
+    }
+
+    .t99 {
+        font-size: 16px;
+        line-height: 24px;
+        color: #8d8d8d;
     }
 
 }
